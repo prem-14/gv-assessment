@@ -28,7 +28,7 @@ const Home = () => {
                 <Card data={job} />
               </Fragment>
             ))
-          : 'Currently no jobs to show'}
+          : null}
       </div>
 
       {isOpen && <JobForm isOpen={isOpen} setIsOpen={setIsOpen} />}
